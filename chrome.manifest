@@ -1,0 +1,5 @@
+content ifsi chrome/content/ contentaccessible=yes
+locale  ifsi en-US locale/en-US/
+skin    ifsi classic/1.0 chrome/skin/
+resource ifsi chrome/modules/
+overlay chrome://browser/content/browser.xul chrome://ifsi/content/ifsiOverlay.xul
