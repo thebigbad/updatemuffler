@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://ifsi/skin/css/ifsiOverlay.css" type="text/css"?>
+<overlay id="ifsiOverlay"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/x-javascript" src="ifsiOverlay.js" />
+  <menubar>
+		<menu label="Ifsi" insertbefore="tools-menu">
+      <menupopup>
+        <menuitem label="Item #1" />
+        <menuitem label="Item #2" />
+        <menuseparator />
+        <menuitem label="Item #3" />
+        <menuitem label="Item #4" />
+      </menupopup>
+		</menu>
+	</menubar>
+</overlay>
