@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet href="chrome://ifsi/skin/css/ifsi.css" type="text/css"?>
 <!DOCTYPE overlay SYSTEM "chrome://ifsi/locale/ifsi.dtd">
 <overlay id="ifsiOverlay"
