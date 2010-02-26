@@ -8,11 +8,11 @@ Installation
 ============
 Navigate to:
 
-  ~/.mozilla/firefox/$PROFILE_NAME/extensions
+    ~/.mozilla/firefox/$PROFILE_NAME/extensions
 
 ...and create a file named:
 
-  ifsi@lousycoder.com
+    ifsi@lousycoder.com
 
 Inside that file, write the path of this project (making sure it ends in slash).
 
