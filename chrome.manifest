@@ -1,3 +1,4 @@
+content ifsi chrome/content/
 content ifsi chrome/content/ contentaccessible=yes
 locale  ifsi en-US locale/en-US/
 skin    ifsi classic/1.0 chrome/skin/
