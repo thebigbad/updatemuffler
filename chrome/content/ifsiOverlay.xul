@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<?xml-stylesheet href="chrome://ifsi/skin/css/ifsiOverlay.css" type="text/css"?>
+<?xml-stylesheet href="chrome://ifsi/skin/css/ifsi.css" type="text/css"?>
 <overlay id="ifsiOverlay"
     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
   <script type="application/x-javascript" src="ifsiOverlay.js" />
