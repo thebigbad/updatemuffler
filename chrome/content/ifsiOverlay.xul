@@ -7,7 +7,9 @@
   <stringbundleset id="ifsi-stringbundleset">
     <stringbundle id="ifsi-strings" src="chrome://ifsi/locale/ifsi.properties" />
   </stringbundleset>
-  <menupopup id="ifsiMenuPop">
-    <menuitem label="&ifsi.label" />
+  <menupopup id="ifsi-menu-popup">
+    <menuitem id="ifsi-menu-item"
+      label="&ifsi.label;"
+      oncommand="alert('Hello World!');" />
   </menupopup>
 </overlay>
