@@ -1,13 +1,13 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="chrome://ifsi/skin/css/ifsi.css" type="text/css"?>
+<!DOCTYPE overlay SYSTEM "chrome://ifsi/locale/ifsi.dtd">
 <overlay id="ifsiOverlay"
     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
   <script type="application/x-javascript" src="ifsiOverlay.js" />
+  <stringbundleset id="ifsi-stringbundleset">
+    <stringbundle id="ifsi-strings" src="chrome://ifsi/locale/ifsi.properties" />
+  </stringbundleset>
   <menupopup id="ifsiMenuPop">
-    <menuitem label="Item #1" />
-    <menuitem label="Item #2" />
-    <menuseparator />
-    <menuitem label="Item #3" />
-    <menuitem label="Item #4" />
+    <menuitem label="&ifsi.label" />
   </menupopup>
 </overlay>
