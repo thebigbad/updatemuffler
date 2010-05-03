@@ -2,9 +2,9 @@
 <RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
     xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <Description about="urn:mozilla:install-manifest">
-    <em:id>ifsi@lousycoder.com</em:id>
-    <em:name>Ifsi</em:name>
-    <em:version>1.0.0</em:version>
+    <em:id>naggerstomper@pseudony.ms</em:id>
+    <em:name>Nagger Stomper</em:name>
+    <em:version>0.0.1</em:version>
     <em:type>2</em:type>
     <em:targetApplication>
       <Description>
@@ -13,9 +13,8 @@
         <em:maxVersion>3.6.*</em:maxVersion>
       </Description>
     </em:targetApplication>
-    <em:aboutURL>chrome://ifsi/content/about.xul</em:aboutURL>
-    <em:creator>Min Huang</em:creator>
-    <em:description>A sample extension</em:description>
-    <em:homepageURL>http://www.lousycoder.com/</em:homepageURL>
+    <em:creator>Ryan Wolf</em:creator>
+    <em:description>Nagger Stomper prevents NoScript and friends from bothering you with "Successful Update" pages.</em:description>
+    <em:homepageURL>http://hampsterdance.com/</em:homepageURL>
   </Description>
 </RDF>

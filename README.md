@@ -1,7 +1,5 @@
-Firefox IFSI
+Nagger Stomper
 ============
-Firefox bugs, features, and lack of features.
-
 This is simply an extension skeleton to play around with.
 
 Installation
@@ -12,10 +10,11 @@ Navigate to:
 
 ...and create a file named:
 
-    ifsi@lousycoder.com
+    naggerstomper@pseudony.ms
 
 Inside that file, write the path of this project (making sure it ends in slash).
 
-Gotchas
-=======
-If your XUL files are malformed, Firefox will fail silently.  Double check them by loading them in Firefox first.
+Thanks
+======
+
+Thanks to retiman for a great firefox extension skeleton, and for complaining loudly enough about NoScript to inspire this extension.
