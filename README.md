@@ -1,6 +1,6 @@
 Nagger Stomper
 ============
-This is simply an extension skeleton to play around with.
+Nagger Stomper prevents NoScript and friends from bothering you with "Successful Update" pages by closing tabs that are opened to known nag pages.
 
 Installation
 ============
@@ -17,4 +17,4 @@ Inside that file, write the path of this project (making sure it ends in slash).
 Thanks
 ======
 
-Thanks to retiman for a great firefox extension skeleton, and for complaining loudly enough about NoScript to inspire this extension.
+Thanks to [retiman](http://github.com/retiman) for a great firefox extension skeleton, and for complaining loudly enough about NoScript to inspire this extension.
