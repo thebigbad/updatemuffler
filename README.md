@@ -11,6 +11,8 @@ Go to the downloads section of this github project, and install the .xpi
 
 ### If you want to muck around with it
 
+Clone this project.
+
 Navigate to:
 
     ~/.mozilla/firefox/$PROFILE_NAME/extensions
