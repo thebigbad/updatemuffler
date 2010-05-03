@@ -16,5 +16,4 @@ Inside that file, write the path of this project (making sure it ends in slash).
 
 Thanks
 ======
-
 Thanks to [retiman](http://github.com/retiman) for a great firefox extension skeleton, and for complaining loudly enough about NoScript to inspire this extension.
