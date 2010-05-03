@@ -5,11 +5,11 @@ Nagger Stomper prevents NoScript and friends from bothering you with "Successful
 Installation
 ============
 
-## If you just want to try it out
+### If you just want to try it out
 
 Go to the downloads section of this github project, and install the .xpi
 
-## If you want to muck around with it
+### If you want to muck around with it
 
 Navigate to:
 
