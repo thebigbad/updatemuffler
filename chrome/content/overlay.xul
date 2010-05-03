@@ -1,19 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet href="chrome://ifsi/skin/css/ifsi.css" type="text/css"?>
-<!DOCTYPE overlay SYSTEM "chrome://ifsi/locale/ifsi.dtd">
-<overlay id="ifsiOverlay"
+<overlay id="naggerstomper"
     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script type="application/x-javascript" src="ifsiOverlay.js" />
-  <stringbundleset id="ifsi-stringbundleset">
-    <stringbundle id="ifsi-strings" src="chrome://ifsi/locale/ifsi.properties" />
-  </stringbundleset>
-  <menubar id="main-menubar">
-    <menu label="Ifsi" insertbefore="tools-menu">
-      <menupopup id="ifsi-menu-popup">
-        <menuitem id="ifsi-menu-item"
-          label="&ifsi.label;"
-          oncommand="alert('Hello World!');" />
-      </menupopup>
-    </menu>
-  </menubar>
+  <script type="application/x-javascript" src="naggerstomper.js" />
+  <menupopup id="menu_ToolsPopup">
+    <menuitem label="Nagger Stomper" insertbefore="javascriptConsole"
+        oncommand="alert('STOMP!');"/>
+  </menupopup>
 </overlay>
