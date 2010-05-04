@@ -1,11 +1,19 @@
 new function () {
   // TODO: nice UI for adding patterns
-  var nagRegexes = [
-    /^http:\/\/noscript.net\/\?ver=.*&prev=.*/,
-  ];
+
+  var getNaggers = function () {
+    // Get the "extensions.myext." branch
+    var prefService = Components.classes["@mozilla.org/preferences-service;1"].
+        getService(Components.interfaces.nsIPrefService);
+    var prefBranch = prefService.getBranch("extensions.naggerstomper.naggers.");
+    var keys = prefBranch.getChildList("", {});
+    return keys.map(function (key) {
+      return new RegExp(prefBranch.getCharPref(key));
+    });
+  };
 
   var isNag = function (url) {
-    return nagRegexes.some(function (reg) { return url.match(reg); });
+    return getNaggers().some(function (regex) { return url.match(regex); });
   };
 
   var closeTabIfNag = function (tab) {

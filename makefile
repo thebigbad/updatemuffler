@@ -1,5 +1,5 @@
 package :
-					zip naggerstomper.xpi chrome/ chrome.manifest install.rdf
+					zip naggerstomper.xpi chrome/ defaults/ chrome.manifest install.rdf
 
 clean :
 					rm naggerstomper.xpi
