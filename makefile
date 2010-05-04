@@ -1,5 +1,5 @@
 package :
-					zip updatemuffler.xpi chrome/ defaults/ chrome.manifest install.rdf
+					zip -r updatemuffler.xpi chrome/ defaults/ chrome.manifest install.rdf
 
 clean :
 					rm updatemuffler.xpi
