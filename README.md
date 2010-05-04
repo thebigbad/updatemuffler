@@ -5,13 +5,17 @@ Prevents NoScript and friends from bothering you with "Successful Update" pages 
 Installation
 ============
 
-### For Normal Use
+### For Users
+
+Download the latest packaged version from (here)[http://github.com/downloads/thebigbad/updatemuffler/updatemuffler.xpi]
+
+Or, if you've cloned te project,
 
     make
 
-Then open updatemuffler.xpi in Firefox
+then open updatemuffler.xpi in Firefox
 
-### For Development
+### For Developers
 
 Navigate to:
 
