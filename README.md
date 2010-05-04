@@ -5,13 +5,13 @@ Nagger Stomper prevents NoScript and friends from bothering you with "Successful
 Installation
 ============
 
-### If you just want to try it out
+### For Use
 
-Go to the downloads section of this github project, and install the .xpi
+    make
 
-### If you want to muck around with it
+Then open naggerstomper.xpi in Firefox
 
-Clone this project.
+### For Development
 
 Navigate to:
 
