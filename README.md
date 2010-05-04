@@ -1,15 +1,15 @@
-Nagger Stomper
+updatemuffler
 ============
-Nagger Stomper prevents NoScript and friends from bothering you with "Successful Update" pages by closing tabs that are opened to known nag pages.
+Prevents NoScript and friends from bothering you with "Successful Update" pages by closing tabs that are opened to blacklisted pages.
 
 Installation
 ============
 
-### For Use
+### For Normal Use
 
     make
 
-Then open naggerstomper.xpi in Firefox
+Then open updatemuffler.xpi in Firefox
 
 ### For Development
 
@@ -19,9 +19,28 @@ Navigate to:
 
 ...and create a file named:
 
-    naggerstomper@pseudony.ms
+    updatemuffler@pseudony.ms
 
 Inside that file, write the path of this project (making sure it ends in slash).
+
+Adding to the Blacklist
+=======================
+
+Go to about:config
+
+Right click -> New -> String
+
+Pick
+
+      extensions.updatemuffler.blacklist.<name of page>
+
+for the name, and
+
+    ^http:\/\/regex-escaped-string-matching-annoying-page
+
+for the value.
+
+See extensions.updatemuffler.blacklist.noscript for a working example.
 
 Thanks
 ======

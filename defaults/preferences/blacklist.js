@@ -1,4 +1,4 @@
 pref(
-  "extensions.naggerstomper.naggers.noscript",
+  "extensions.updatemuffler.blacklist.noscript",
   "^http:\/\/noscript.net\/\?ver=.*&prev=.*"
 );

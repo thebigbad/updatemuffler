@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<overlay id="naggerstomper"
+<overlay id="updatemuffler"
     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script type="application/x-javascript" src="naggerstomper.js" />
+  <script type="application/x-javascript" src="updatemuffler.js" />
 <!--  <menupopup id="menu_ToolsPopup">
-    <menuitem label="Nagger Stomper" insertbefore="javascriptConsole"
-        oncommand="alert('STOMP!');"/>
+    <menuitem id="updatemuffler-menuitem" label="Muffle This Page"
+        insertbefore="javascriptConsole" oncommand="alert('TODO');"/>
   </menupopup> -->
 </overlay>

@@ -1,22 +1,22 @@
 new function () {
-  // TODO: nice UI for adding patterns
+  // TODO: #updatemuffler-menuitem command handler for updating blacklist
 
-  var getNaggers = function () {
-    // Get the "extensions.myext." branch
+  var getBlacklist = function () {
     var prefService = Components.classes["@mozilla.org/preferences-service;1"].
         getService(Components.interfaces.nsIPrefService);
-    var prefBranch = prefService.getBranch("extensions.naggerstomper.naggers.");
+    var prefBranch = prefService.
+        getBranch("extensions.updatemuffler.blacklist.");
     var keys = prefBranch.getChildList("", {});
     return keys.map(function (key) {
       return new RegExp(prefBranch.getCharPref(key));
     });
   };
 
-  var isNag = function (url) {
-    return getNaggers().some(function (regex) { return url.match(regex); });
+  var isBlacklisted = function (url) {
+    return getBlacklist().some(function (regex) { return url.match(regex); });
   };
 
-  var closeTabIfNag = function (tab) {
+  var closeTabIfBlacklisted = function (tab) {
     var browser = gBrowser.getBrowserForTab(tab);
     browser.addEventListener(
       "pageshow",
@@ -25,7 +25,7 @@ new function () {
         if (url === "about:blank") {
           return;
         }
-        if (isNag(url)) {
+        if (isBlacklisted(url)) {
           gBrowser.removeTab(tab);
         }
         browser.removeEventListener("pageshow", arguments.callee, false);
@@ -40,7 +40,7 @@ new function () {
       gBrowser.tabContainer.addEventListener(
         "TabOpen",
         function (event) {
-          closeTabIfNag(event.target);
+          closeTabIfBlacklisted(event.target);
         },
         false
       );

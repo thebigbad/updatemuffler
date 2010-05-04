@@ -2,8 +2,8 @@
 <RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#"
     xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
   <Description about="urn:mozilla:install-manifest">
-    <em:id>naggerstomper@pseudony.ms</em:id>
-    <em:name>Nagger Stomper</em:name>
+    <em:id>updatemuffler@pseudony.ms</em:id>
+    <em:name>updatemuffler</em:name>
     <em:version>0.0.2</em:version>
     <em:type>2</em:type>
     <em:targetApplication>
@@ -14,7 +14,7 @@
       </Description>
     </em:targetApplication>
     <em:creator>Ryan Wolf</em:creator>
-    <em:description>Nagger Stomper prevents NoScript and friends from bothering you with "Successful Update" pages.</em:description>
-    <em:homepageURL>http://hampsterdance.com/</em:homepageURL>
+    <em:description>Prevent NoScript and friends from bothering you with "Successful Update" pages.</em:description>
+    <em:homepageURL>http://github.com/thebigbad/updatemuffler</em:homepageURL>
   </Description>
 </RDF>
