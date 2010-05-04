@@ -7,7 +7,7 @@ Installation
 
 ### For Users
 
-Download the latest packaged version from (here)[http://github.com/downloads/thebigbad/updatemuffler/updatemuffler.xpi]
+Download the latest packaged version from [here](http://github.com/downloads/thebigbad/updatemuffler/updatemuffler.xpi)
 
 Or, if you've cloned te project,
 
