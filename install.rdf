@@ -4,7 +4,7 @@
   <Description about="urn:mozilla:install-manifest">
     <em:id>updatemuffler@pseudony.ms</em:id>
     <em:name>updatemuffler</em:name>
-    <em:version>0.0.2</em:version>
+    <em:version>0.0.3</em:version>
     <em:type>2</em:type>
     <em:targetApplication>
       <Description>
